@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myblogwebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="left">
+            <img src="images/logo.png" alt="logo">
+            <ul id="MenuItems">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <form action="/search.html" method="get">
+                <img src="images/menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+            <input type="search" name="" id="" placeholder="Article search">
+            <div><button class="btn">Search</button></div>
+        </div>
+    </form>
+        
+    </nav> 
+    <hr>
+    <div id="home-2">
+        <h1>Feel Free To Contact Us</h1>
+        <form action="/index.html">
+            <div><input type="text" name="my name" id="" placeholder="Enter Your Name"></div>
+            <div><input type="text" name="my number" id="" placeholder="Enter Your Number"></div>
+            <div><input type="email" name="my email" id="" placeholder="Enter Your Email "></div>
+            <div><input type="password" name="" id=""placeholder="Enter Your Password"></div>
+            <button class="btn2">SUBMIT</button>
+            <button  class="btn2" type="reset">Reset</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
